@@ -48,7 +48,10 @@ int main(){
 	char tebak; 
 	
 	header ();  
-	printw ("Terdiri dari 10 huruf Makanan ini merupakan Makanan dari Korea"); 
+	clear();
+	
+	mvprintw (3,6, "Terdiri dari 10 huruf Makanan ini merupakan Makanan dari Korea"); 
+	mvprintw (3,6, "Pertanyaan 1"); 
 	
 //	for(int y=0; y<10; y++){
 //		strip_jawaban[y]='_';
