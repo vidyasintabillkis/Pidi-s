@@ -32,6 +32,7 @@ void easy ( ){
 	
 }
 
+
 int main (){
 	
 	easy(); 
